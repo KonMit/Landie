@@ -5,4 +5,4 @@
 
 Ссылка на сайт https://www.figma.com/file/0MbYo6huZzZIH8XXwuHe4H/Landie
 
-Используемые технологии: **HTML5/CSS3; JavaScript; Pug; Gulp;**
+Используемые технологии: **HTML5/CSS3; JavaScript; Pug; SCSS; Gulp;**
