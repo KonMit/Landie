@@ -1,0 +1,49 @@
+.button {
+  font-weight: 500;
+  color: #ffffff;
+  background: #111B47;
+  border-radius: 4px;
+  max-width: 189px;
+  padding: 4px;
+}
+
+.header {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15px;
+    margin-bottom: 243px;
+  }
+  &__nav {}
+
+  .nav {
+    max-width: 245px;
+    width: 100%;
+    &__list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__item {}
+    &__link {
+      font-size: 14px;
+      line-height: 24px;
+    }
+    &__link:hover {
+      color: #050d30;
+    }
+  }
+  &__logo {}
+  .logo {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 38px;
+    color: #37447E;
+  }
+  &__button {
+    padding: 4px 56px;
+  }
+  
+}
+
