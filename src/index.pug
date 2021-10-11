@@ -3,7 +3,7 @@ html(lang="en")
   head
     meta(charset="UTF-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0, user-scalable=no")
     title title
 
     link(rel="stylesheet", href="css/style.min.css")
@@ -12,7 +12,11 @@ html(lang="en")
       include pug/blocks/_header
 
       include pug/blocks/_fullscreen
-
-      include pug/blocks/_main
+      include pug/blocks/_section_first
+      include pug/blocks/_section
+      +section('img/section-image-2.png')
+      +section('img/section-image-3.png')
+      +section('img/section-image-4.png', true)
+      include pug/blocks/_section-price
 
       include pug/blocks/_footer

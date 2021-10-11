@@ -1,0 +1,19 @@
+mixin section(src, button)
+ section.section
+  .section__container.container
+    .section__image-block 
+      img.section__image(src=src alt='section-image')
+    .section__info 
+      .section__title-block 
+        h2.title.section__title Light, Fast & Powerful
+        p.description.section__description 
+          |Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+          |Aenean commodo ligula eget dolor. Aenean massa. 
+          |Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
+          |mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+          br
+          br
+          | sem. Nulla consequat massa quis enim.sem. Nulla consequat massa quis enim.sem. Nulla consequat massa quis enim.
+      if button === true   
+       .section__buttons 
+        button.button.section__button(type='button') Purchase Now  

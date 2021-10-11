@@ -1,0 +1,35 @@
+.footer {
+  background: #E7ECFF;
+  &__container {
+    padding: 61px 15px 32px 15px;
+  }
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 40px 0;
+    border-bottom: 1px solid #CDD1D4;
+  }
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 0 0 ;
+  }
+
+  .nav__link {
+    color: #929ECC;
+  }
+}
+
+.social {
+  &__items {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  &__image {
+    width: 16px;
+    height: 16px;
+  }
+}

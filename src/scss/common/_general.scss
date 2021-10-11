@@ -12,8 +12,16 @@ body {
 .container {
     max-width:  $base-w;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .wrapper {
-    background: url('../img/fullscreen.png') top right no-repeat;
+    margin: 0 auto;
+    max-width: 1920px;
+    background: url('../img/fullscreen-bg.png') top  right  no-repeat;
+    @media (max-width:1100px) {
+    }
+    @media (max-width:950px) {
+        background-size: contain;
+    }
 }
